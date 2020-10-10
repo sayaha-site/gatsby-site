@@ -47,7 +47,6 @@
     line-height: 1.2;
   }
   p {
-    color: #464646;
     font-weight: normal;
   }
   ul {
@@ -85,6 +84,7 @@
   .blog {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .blog__body {
     max-width: 800px;
@@ -122,6 +122,12 @@
 }
 
 @media (min-width: 1440px) {
+    .blog {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      margin-right: 30%;
+    }
   .blog__hero {
     height: 70vh;
   }

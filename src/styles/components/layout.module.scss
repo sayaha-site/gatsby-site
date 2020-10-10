@@ -2,9 +2,6 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  &.info_page {
-    color: #EBEBEB;
-  }
 }
 
 .content {
@@ -17,7 +14,7 @@
   }
   .content {
     flex-grow: none;
-    width: 70%;
-    margin-left: 30%;
+    width: 75%;
+    margin-left: 25%;
   }
 }

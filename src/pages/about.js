@@ -4,9 +4,9 @@ import infoStyles from "../styles/pages/info.module.scss"
 
 export default function Info() {
   return (
-    <Layout page="info">
+    <Layout page="about">
       <section className={infoStyles.info_blurb}>
-          My info.
+          About me.
       </section>
     </Layout>
   )

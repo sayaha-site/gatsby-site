@@ -5,7 +5,7 @@ import headerStyles from "../styles/components/header.module.scss"
 export default function Header(props) {
   return (
     <header
-      className={`${headerStyles.header} ${props.page === 'info' &&
+      className={`${headerStyles.header} ${props.page === "info" &&
         headerStyles.info_page}`}
     >
       <nav
@@ -14,23 +14,25 @@ export default function Header(props) {
         aria-label="main navigation"
       >
         <Link to="/">
-          <h1>{props.title}</h1>
+          <h2>{props.title}</h2>
+          <br/>
+          <h2>
+            <Link to="/bloglist" activeClassName={headerStyles.navItemActive}>
+              {"BLOG"}
+            </Link>
+          </h2>
         </Link>
         <div>
-          <h1>
-            <Link
-              to={
-                props.page === 'info'
-                  ? "/"
-                  : "/info"
-              }
-              activeClassName={headerStyles.navItemActive}
-            >
-              {props.page === 'info'
-                ? "close"
-                : "info"}
+          <h2>
+            <Link to="/info" activeClassName={headerStyles.navItemActive}>
+              {"INFO"}
             </Link>
-          </h1>
+          </h2>
+          <h2>
+            <Link to="/about" activeClassName={headerStyles.navItemActive}>
+              {"ABOUT"}
+            </Link>
+          </h2>
         </div>
       </nav>
     </header>
