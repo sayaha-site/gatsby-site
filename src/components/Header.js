@@ -14,13 +14,15 @@ export default function Header(props) {
         aria-label="main navigation"
       >
         <Link to="/">
-          <h2>{props.title}</h2>
-          <br/>
-          <h2>
-            <Link to="/bloglist" activeClassName={headerStyles.navItemActive}>
-              {"BLOG"}
-            </Link>
-          </h2>
+          <div>
+            <h2>{props.title}</h2>
+            <br />
+            <h2>
+              <Link to="/bloglist" activeClassName={headerStyles.navItemActive}>
+                {"BLOG"}
+              </Link>
+            </h2>
+          </div>
         </Link>
         <div>
           <h2>
