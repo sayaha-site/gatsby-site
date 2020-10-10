@@ -13,13 +13,12 @@ export default function Blog(props) {
         <div className={blogTemplateStyles.blog__info}>
           <h3>{data.frontmatter.title}</h3>
           <h4>{data.frontmatter.date}</h4>
+          <div
+            className={blogTemplateStyles.blog__body}
+            dangerouslySetInnerHTML={{ __html: data.html }}
+          ></div>
         </div>
-        <div
-          className={blogTemplateStyles.blog__body}
-          dangerouslySetInnerHTML={{ __html: data.html }}
-        ></div>
-        <div className={blogTemplateStyles.blog__footer}>
-        </div>
+        <div className={blogTemplateStyles.blog__footer}></div>
       </article>
     </Layout>
   )
