@@ -16,6 +16,7 @@ export default function BlogList() {
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.list__info}>
                     <h3>{blog.node.frontmatter.title}</h3>
+                    <h4>{blog.node.frontmatter.date}</h4>
                     <p>{blog.node.excerpt}</p>
                   </div>
                 </li>
