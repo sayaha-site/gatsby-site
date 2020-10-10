@@ -12,7 +12,6 @@ export default function Blog(props) {
       <article className={blogTemplateStyles.blog}>
         <div className={blogTemplateStyles.blog__info}>
           <h1>{data.frontmatter.title}</h1>
-          <h3>{data.frontmatter.date}</h3>
         </div>
         <div
           className={blogTemplateStyles.blog__body}
