@@ -4,7 +4,7 @@ import BlogList from "../components/BlogList"
 
 export default function IndexPage() {
   return (
-    <Layout page="bloglist" bgColor="inherit">
+    <Layout page="news" bgColor="inherit">
       <section>
         <BlogList />
       </section>

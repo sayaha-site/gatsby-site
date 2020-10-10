@@ -14,28 +14,29 @@ export default function Header(props) {
         aria-label="main navigation"
       >
         <Link to="/">
-          <div>
-            <h2>{props.title}</h2>
-            <br />
-            <h2>
-              <Link to="/bloglist" activeClassName={headerStyles.navItemActive}>
-                {"BLOG"}
-              </Link>
-            </h2>
-          </div>
-        </Link>
-        <div>
-          <h2>
-            <Link to="/info" activeClassName={headerStyles.navItemActive}>
-              {"INFO"}
-            </Link>
-          </h2>
+          <h2>{props.title}</h2>
+          <br />
           <h2>
             <Link to="/about" activeClassName={headerStyles.navItemActive}>
               {"ABOUT"}
             </Link>
           </h2>
-        </div>
+          <h2>
+            <Link to="/news" activeClassName={headerStyles.navItemActive}>
+              {"NEWS"}
+            </Link>
+          </h2>
+          <h2>
+            <Link to="/writings" activeClassName={headerStyles.navItemActive}>
+              {"WRITINGS"}
+            </Link>
+          </h2>
+        </Link>
+        <h2>
+          <Link to="/contact" activeClassName={headerStyles.navItemActive}>
+            {"CONTACT"}
+          </Link>
+        </h2>
       </nav>
     </header>
   )
