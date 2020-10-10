@@ -3,11 +3,8 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   overflow-x: hidden;
-  color: #111111;
-  font-size: 14px;
-  letter-spacing: 0.75px;
-  word-spacing: 1px;
-  line-height: 2em;
+  color: #000;
+  font-size: 16px;
 }
 
 a {
@@ -48,11 +45,11 @@ h3 {
   line-height: 1.1875;
 }
 
-/*p {
+p {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
-}*/
+}
 
 // gatsby-image plugin container-----------------
 
