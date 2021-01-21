@@ -14,7 +14,7 @@ export default function Info() {
           2021年 京都大学大学院 人間環境学研究科 思想文化論講座 修士課程 在学<br/>
           <br/>
           活動歴抜粋<br/>
-          2015年 「Don't follow the Wind」展 学生スタッフ<br/>
+          2015年 Don't follow the Wind展 学生スタッフ<br/>
           2016年 スイス大使館主催「ダダイズム100周年」ライター<br/>
           2016年 ギャラリー SNOW Contemporary インターンシップ<br/>
           2018年 Pacific Asia Museum(パサデナ市、カリフォルニア州)<br/>
