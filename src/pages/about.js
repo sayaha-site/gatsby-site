@@ -17,8 +17,8 @@ export default function Info() {
           2015年 「Don't follow the Wind」展 学生スタッフ<br/>
           2016年 スイス大使館主催「ダダイズム100周年」ライター<br/>
           2016年 ギャラリー SNOW Contemporary インターンシップ<br/>
-          2018年 Pacific Asia Museum(パサデナ市、カリフォルニア州) キュレトリアル・コレクション・インターンシップ<br/>
-            　 　展覧会Tsuruya Kōkei: Modern Kabuki Prints Revised & Revisitedの展示デザイン等を担当<br/>
+          2018年 Pacific Asia Museum(パサデナ市、カリフォルニア州)<br/>
+                 キュレトリアル・コレクション・インターンシップ<br/>
           2020年 国立国際美術館 キュレトリアル・インターンシップ(学芸)<br/>
           <br/>
           受賞・助成抜粋<br/>
