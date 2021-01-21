@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
   color: #000;
   font-size: 13px;
+  letter-spacing: 0.75px;
+  word-spacing: 1px;
+  line-height: 2em;
+  word-break: break-word;
 }
 
 a {
@@ -46,12 +50,14 @@ h3 {
   letter-spacing: 0.75px;
   word-spacing: 1px;
   line-height: 2em;
-  word-break: break-word
+  word-break: break-word;
 }
 
 h4 {
   font-size: 0.85rem;
   line-height: 2;
+  letter-spacing: 0.75px;
+  word-spacing: 1px;
 }
 
 p {
@@ -89,13 +95,15 @@ p {
     letter-spacing: 0.75px;
     word-spacing: 1px;
     line-height: 2em;
-  word-break: break-word
+  word-break: break-word;
   }
   
   
 h4 {
   font-size: 0.85rem;
   line-height: 2;
+  letter-spacing: 0.75px;
+  word-spacing: 1px;
 }
 
   p {
