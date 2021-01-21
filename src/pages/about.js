@@ -6,7 +6,8 @@ export default function Info() {
   return (
     <Layout page="about">
       <section className={infoStyles.info_blurb}>
-          <font size="2"><b>高橋沙也葉 SAYAHA TAKAHASHI</b></font><br/>
+          <b>高橋沙也葉</b><br/>
+          <b>SAYAHA TAKAHASHI</b><br/>
           <br/>
           2015年 筑波大学 芸術専門学群 芸術学専攻 入学<br/>
           2017年 カリフォルニア州立大学 ロングビーチ校 美術史専攻 交換留学<br/>
