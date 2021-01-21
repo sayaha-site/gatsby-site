@@ -6,7 +6,7 @@ export default function Info() {
   return (
     <Layout page="about">
       <section className={infoStyles.info_blurb}>
-          <h3><b>高橋沙也葉</b>　SAYAHA TAKAHASHI</h3><br/>
+          <h3><b>高橋沙也葉</b>　SAYAHA TAKAHASHI</h3>
           2015年 筑波大学 芸術専門学群 芸術学専攻 入学<br/>
           2017年 カリフォルニア州立大学 ロングビーチ校 美術史専攻 交換留学<br/>
           2020年 筑波大学 芸術専門学群 芸術学専攻 芸術支援コース 卒業<br/>
@@ -17,7 +17,7 @@ export default function Info() {
           2016年 スイス大使館主催「ダダイズム100周年」ライター<br/>
           2016年 ギャラリー SNOW Contemporary インターンシップ<br/>
           2018年 Pacific Asia Museum(パサデナ市、カリフォルニア州)<br/>
-　　　　　　　　　キュレトリアル・コレクション・インターンシップ<br/>
+    　　　　　　　キュレトリアル・コレクション・インターンシップ<br/>
           2020年 国立国際美術館 キュレトリアル・インターンシップ(学芸)<br/>
           <br/>
           受賞・助成抜粋<br/>
